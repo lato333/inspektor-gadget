@@ -27,11 +27,11 @@ import (
 	"github.com/google/uuid"
 	"golang.org/x/sync/errgroup"
 
-	containercollection "github.com/inspektor-gadget/inspektor-gadget/pkg/container-collection"
-	utilstest "github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets/internal/test"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets/trace/exec/tracer"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets/trace/exec/types"
-	tracercollection "github.com/inspektor-gadget/inspektor-gadget/pkg/tracer-collection"
+	containercollection "github.com/lato333/inspektor-gadget/pkg/container-collection"
+	utilstest "github.com/lato333/inspektor-gadget/pkg/gadgets/internal/test"
+	"github.com/lato333/inspektor-gadget/pkg/gadgets/trace/exec/tracer"
+	"github.com/lato333/inspektor-gadget/pkg/gadgets/trace/exec/types"
+	tracercollection "github.com/lato333/inspektor-gadget/pkg/tracer-collection"
 )
 
 func runContainerTest(
@@ -85,7 +85,7 @@ func generateEvent(cmdName string) error {
 // TestContainerRemovalRaceCondition checks that a container is removed
 // from the mount ns inode ids map fast enough to avoid capturing events
 // from the wrong container. See
-// https://github.com/inspektor-gadget/inspektor-gadget/issues/1001
+// https://github.com/lato333/inspektor-gadget/issues/1001
 func TestContainerRemovalRaceCondition(t *testing.T) {
 	t.Parallel()
 

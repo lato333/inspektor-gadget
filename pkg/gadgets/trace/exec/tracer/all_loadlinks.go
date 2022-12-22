@@ -21,7 +21,7 @@ import (
 	"fmt"
 
 	"github.com/cilium/ebpf/link"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets"
+	"github.com/lato333/inspektor-gadget/pkg/gadgets"
 )
 
 func loadExecsnoopLinks(objs execsnoopObjects) (link.Link, link.Link, error) {

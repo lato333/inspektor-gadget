@@ -18,8 +18,8 @@ import (
 	"fmt"
 
 	"github.com/docker/go-units"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/columns"
-	eventtypes "github.com/inspektor-gadget/inspektor-gadget/pkg/types"
+	"github.com/lato333/inspektor-gadget/pkg/columns"
+	eventtypes "github.com/lato333/inspektor-gadget/pkg/types"
 )
 
 const (

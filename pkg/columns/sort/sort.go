@@ -20,7 +20,7 @@ import (
 
 	"golang.org/x/exp/constraints"
 
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/columns"
+	"github.com/lato333/inspektor-gadget/pkg/columns"
 )
 
 type columnSorter[T any] struct {

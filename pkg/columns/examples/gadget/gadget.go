@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/columns"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/columns/formatter/textcolumns"
+	"github.com/lato333/inspektor-gadget/pkg/columns"
+	"github.com/lato333/inspektor-gadget/pkg/columns/formatter/textcolumns"
 )
 
 type Kubernetes struct {

@@ -26,10 +26,10 @@ import (
 
 	ocispec "github.com/opencontainers/runtime-spec/specs-go"
 
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/container-utils/containerd"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/container-utils/crio"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/container-utils/docker"
-	runtimeclient "github.com/inspektor-gadget/inspektor-gadget/pkg/container-utils/runtime-client"
+	"github.com/lato333/inspektor-gadget/pkg/container-utils/containerd"
+	"github.com/lato333/inspektor-gadget/pkg/container-utils/crio"
+	"github.com/lato333/inspektor-gadget/pkg/container-utils/docker"
+	runtimeclient "github.com/lato333/inspektor-gadget/pkg/container-utils/runtime-client"
 )
 
 var AvailableRuntimes = []string{

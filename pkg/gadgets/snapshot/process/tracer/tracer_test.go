@@ -24,11 +24,11 @@ import (
 	"reflect"
 	"testing"
 
-	containerutils "github.com/inspektor-gadget/inspektor-gadget/pkg/container-utils"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets"
-	utilstest "github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets/internal/test"
-	snapshotProcessTypes "github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets/snapshot/process/types"
-	eventtypes "github.com/inspektor-gadget/inspektor-gadget/pkg/types"
+	containerutils "github.com/lato333/inspektor-gadget/pkg/container-utils"
+	"github.com/lato333/inspektor-gadget/pkg/gadgets"
+	utilstest "github.com/lato333/inspektor-gadget/pkg/gadgets/internal/test"
+	snapshotProcessTypes "github.com/lato333/inspektor-gadget/pkg/gadgets/snapshot/process/types"
+	eventtypes "github.com/lato333/inspektor-gadget/pkg/types"
 )
 
 type collectorFunc func(config *Config, enricher gadgets.DataEnricher) ([]*snapshotProcessTypes.Event, error)

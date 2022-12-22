@@ -17,7 +17,7 @@ package ellipsis_test
 import (
 	"fmt"
 
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/columns/ellipsis"
+	"github.com/lato333/inspektor-gadget/pkg/columns/ellipsis"
 )
 
 func ExampleShortenString() {

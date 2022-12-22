@@ -20,7 +20,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/columns"
+	"github.com/lato333/inspektor-gadget/pkg/columns"
 )
 
 type testEmbedded struct {

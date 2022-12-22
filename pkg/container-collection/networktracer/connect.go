@@ -18,8 +18,8 @@ import (
 	"fmt"
 
 	"github.com/google/uuid"
-	containercollection "github.com/inspektor-gadget/inspektor-gadget/pkg/container-collection"
-	eventtypes "github.com/inspektor-gadget/inspektor-gadget/pkg/types"
+	containercollection "github.com/lato333/inspektor-gadget/pkg/container-collection"
+	eventtypes "github.com/lato333/inspektor-gadget/pkg/types"
 )
 
 type Tracer[Event any] interface {

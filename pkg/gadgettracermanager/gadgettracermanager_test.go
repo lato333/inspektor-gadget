@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"testing"
 
-	containercollection "github.com/inspektor-gadget/inspektor-gadget/pkg/container-collection"
+	containercollection "github.com/lato333/inspektor-gadget/pkg/container-collection"
 )
 
 func TestTracer(t *testing.T) {

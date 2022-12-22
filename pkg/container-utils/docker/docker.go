@@ -26,8 +26,8 @@ import (
 	"github.com/docker/docker/client"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/container-utils/cgroups"
-	runtimeclient "github.com/inspektor-gadget/inspektor-gadget/pkg/container-utils/runtime-client"
+	"github.com/lato333/inspektor-gadget/pkg/container-utils/cgroups"
+	runtimeclient "github.com/lato333/inspektor-gadget/pkg/container-utils/runtime-client"
 )
 
 const (

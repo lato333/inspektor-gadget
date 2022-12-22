@@ -24,10 +24,10 @@ import (
 	"github.com/cilium/ebpf"
 	"golang.org/x/sys/unix"
 
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets/trace/network/types"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/rawsock"
-	eventtypes "github.com/inspektor-gadget/inspektor-gadget/pkg/types"
+	"github.com/lato333/inspektor-gadget/pkg/gadgets"
+	"github.com/lato333/inspektor-gadget/pkg/gadgets/trace/network/types"
+	"github.com/lato333/inspektor-gadget/pkg/rawsock"
+	eventtypes "github.com/lato333/inspektor-gadget/pkg/types"
 )
 
 //go:generate bash -c "source ./clangosflags.sh; go run github.com/cilium/ebpf/cmd/bpf2go -target bpfel -cc clang graphmap ./bpf/graphmap.c -- $CLANG_OS_FLAGS -I./bpf/"

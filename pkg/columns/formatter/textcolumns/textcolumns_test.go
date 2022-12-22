@@ -18,7 +18,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/columns"
+	"github.com/lato333/inspektor-gadget/pkg/columns"
 )
 
 type testStruct struct {

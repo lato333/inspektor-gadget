@@ -17,8 +17,8 @@ package filter_test
 import (
 	"fmt"
 
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/columns"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/columns/filter"
+	"github.com/lato333/inspektor-gadget/pkg/columns"
+	"github.com/lato333/inspektor-gadget/pkg/columns/filter"
 )
 
 func ExampleFilterEntries() {

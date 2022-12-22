@@ -25,10 +25,10 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	utilstest "github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets/internal/test"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets/trace/exec/tracer"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets/trace/exec/types"
-	eventtypes "github.com/inspektor-gadget/inspektor-gadget/pkg/types"
+	utilstest "github.com/lato333/inspektor-gadget/pkg/gadgets/internal/test"
+	"github.com/lato333/inspektor-gadget/pkg/gadgets/trace/exec/tracer"
+	"github.com/lato333/inspektor-gadget/pkg/gadgets/trace/exec/types"
+	eventtypes "github.com/lato333/inspektor-gadget/pkg/types"
 )
 
 func TestExecTracerCreate(t *testing.T) {

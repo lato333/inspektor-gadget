@@ -26,8 +26,8 @@ import (
 	"github.com/cilium/ebpf/link"
 	"github.com/moby/moby/pkg/parsers/kernel"
 
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets/profile/block-io/types"
+	"github.com/lato333/inspektor-gadget/pkg/gadgets"
+	"github.com/lato333/inspektor-gadget/pkg/gadgets/profile/block-io/types"
 )
 
 //go:generate go run github.com/cilium/ebpf/cmd/bpf2go -target $TARGET -type hist -type hist_key -cc clang biolatency ./bpf/biolatency.bpf.c -- -I./bpf/ -I../../../../${TARGET}

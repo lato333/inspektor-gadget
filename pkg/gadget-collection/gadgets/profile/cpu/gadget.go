@@ -19,12 +19,12 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	gadgetv1alpha1 "github.com/inspektor-gadget/inspektor-gadget/pkg/apis/gadget/v1alpha1"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/gadget-collection/gadgets"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/gadget-collection/gadgets/profile"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets/profile/cpu/tracer"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets/profile/cpu/types"
-	standardtracer "github.com/inspektor-gadget/inspektor-gadget/pkg/standardgadgets/profile/cpu"
+	gadgetv1alpha1 "github.com/lato333/inspektor-gadget/pkg/apis/gadget/v1alpha1"
+	"github.com/lato333/inspektor-gadget/pkg/gadget-collection/gadgets"
+	"github.com/lato333/inspektor-gadget/pkg/gadget-collection/gadgets/profile"
+	"github.com/lato333/inspektor-gadget/pkg/gadgets/profile/cpu/tracer"
+	"github.com/lato333/inspektor-gadget/pkg/gadgets/profile/cpu/types"
+	standardtracer "github.com/lato333/inspektor-gadget/pkg/standardgadgets/profile/cpu"
 )
 
 type Trace struct {

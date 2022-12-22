@@ -28,9 +28,9 @@ import (
 	"github.com/cilium/ebpf/perf"
 	"golang.org/x/sys/unix"
 
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets/trace/tcpconnect/types"
-	eventtypes "github.com/inspektor-gadget/inspektor-gadget/pkg/types"
+	"github.com/lato333/inspektor-gadget/pkg/gadgets"
+	"github.com/lato333/inspektor-gadget/pkg/gadgets/trace/tcpconnect/types"
+	eventtypes "github.com/lato333/inspektor-gadget/pkg/types"
 )
 
 //go:generate go run github.com/cilium/ebpf/cmd/bpf2go -target $TARGET -cc clang -type event tcpconnect ./bpf/tcpconnect.bpf.c -- -I./bpf/ -I../../../../${TARGET}

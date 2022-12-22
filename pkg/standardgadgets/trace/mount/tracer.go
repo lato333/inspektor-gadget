@@ -17,9 +17,9 @@ package standard
 import (
 	"strings"
 
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets/trace/mount/tracer"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets/trace/mount/types"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/standardgadgets/trace"
+	"github.com/lato333/inspektor-gadget/pkg/gadgets/trace/mount/tracer"
+	"github.com/lato333/inspektor-gadget/pkg/gadgets/trace/mount/types"
+	"github.com/lato333/inspektor-gadget/pkg/standardgadgets/trace"
 )
 
 func NewTracer(config *tracer.Config, eventCallback func(types.Event)) (*trace.StandardTracer[types.Event], error) {

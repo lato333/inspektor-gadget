@@ -19,10 +19,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/columns"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/columns/filter"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/columns/formatter/textcolumns"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/columns/sort"
+	"github.com/lato333/inspektor-gadget/pkg/columns"
+	"github.com/lato333/inspektor-gadget/pkg/columns/filter"
+	"github.com/lato333/inspektor-gadget/pkg/columns/formatter/textcolumns"
+	"github.com/lato333/inspektor-gadget/pkg/columns/sort"
 )
 
 type Employee struct {

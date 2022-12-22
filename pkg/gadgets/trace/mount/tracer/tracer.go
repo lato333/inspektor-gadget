@@ -26,9 +26,9 @@ import (
 	"github.com/cilium/ebpf"
 	"github.com/cilium/ebpf/link"
 	"github.com/cilium/ebpf/perf"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets/trace/mount/types"
-	eventtypes "github.com/inspektor-gadget/inspektor-gadget/pkg/types"
+	"github.com/lato333/inspektor-gadget/pkg/gadgets"
+	"github.com/lato333/inspektor-gadget/pkg/gadgets/trace/mount/types"
+	eventtypes "github.com/lato333/inspektor-gadget/pkg/types"
 )
 
 //go:generate go run github.com/cilium/ebpf/cmd/bpf2go -no-global-types -target bpfel -cc clang -type event -type op mountsnoop ./bpf/mountsnoop.bpf.c -- -I./bpf/ -I../../../../${TARGET}

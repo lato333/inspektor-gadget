@@ -15,8 +15,8 @@
 package gadgets
 
 import (
-	gadgetv1alpha1 "github.com/inspektor-gadget/inspektor-gadget/pkg/apis/gadget/v1alpha1"
-	containercollection "github.com/inspektor-gadget/inspektor-gadget/pkg/container-collection"
+	gadgetv1alpha1 "github.com/lato333/inspektor-gadget/pkg/apis/gadget/v1alpha1"
+	containercollection "github.com/lato333/inspektor-gadget/pkg/container-collection"
 	"k8s.io/apimachinery/pkg/types"
 )
 

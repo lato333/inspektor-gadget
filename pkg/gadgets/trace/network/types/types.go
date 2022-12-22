@@ -17,9 +17,9 @@ package types
 import (
 	"fmt"
 
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/columns"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/columns/ellipsis"
-	eventtypes "github.com/inspektor-gadget/inspektor-gadget/pkg/types"
+	"github.com/lato333/inspektor-gadget/pkg/columns"
+	"github.com/lato333/inspektor-gadget/pkg/columns/ellipsis"
+	eventtypes "github.com/lato333/inspektor-gadget/pkg/types"
 )
 
 type RemoteKind string

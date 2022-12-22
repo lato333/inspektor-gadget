@@ -26,13 +26,13 @@ import (
 	"github.com/cilium/ebpf/rlimit"
 	log "github.com/sirupsen/logrus"
 
-	containercollection "github.com/inspektor-gadget/inspektor-gadget/pkg/container-collection"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets"
-	pb "github.com/inspektor-gadget/inspektor-gadget/pkg/gadgettracermanager/api"
-	containersmap "github.com/inspektor-gadget/inspektor-gadget/pkg/gadgettracermanager/containers-map"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/runcfanotify"
-	tracercollection "github.com/inspektor-gadget/inspektor-gadget/pkg/tracer-collection"
-	eventtypes "github.com/inspektor-gadget/inspektor-gadget/pkg/types"
+	containercollection "github.com/lato333/inspektor-gadget/pkg/container-collection"
+	"github.com/lato333/inspektor-gadget/pkg/gadgets"
+	pb "github.com/lato333/inspektor-gadget/pkg/gadgettracermanager/api"
+	containersmap "github.com/lato333/inspektor-gadget/pkg/gadgettracermanager/containers-map"
+	"github.com/lato333/inspektor-gadget/pkg/runcfanotify"
+	tracercollection "github.com/lato333/inspektor-gadget/pkg/tracer-collection"
+	eventtypes "github.com/lato333/inspektor-gadget/pkg/types"
 	ocispec "github.com/opencontainers/runtime-spec/specs-go"
 )
 

@@ -19,13 +19,13 @@ import (
 
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	gadgetv1alpha1 "github.com/inspektor-gadget/inspektor-gadget/pkg/apis/gadget/v1alpha1"
-	containercollection "github.com/inspektor-gadget/inspektor-gadget/pkg/container-collection"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/container-collection/networktracer"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/gadget-collection/gadgets"
-	dnsTracer "github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets/trace/dns/tracer"
-	dnsTypes "github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets/trace/dns/types"
-	eventtypes "github.com/inspektor-gadget/inspektor-gadget/pkg/types"
+	gadgetv1alpha1 "github.com/lato333/inspektor-gadget/pkg/apis/gadget/v1alpha1"
+	containercollection "github.com/lato333/inspektor-gadget/pkg/container-collection"
+	"github.com/lato333/inspektor-gadget/pkg/container-collection/networktracer"
+	"github.com/lato333/inspektor-gadget/pkg/gadget-collection/gadgets"
+	dnsTracer "github.com/lato333/inspektor-gadget/pkg/gadgets/trace/dns/tracer"
+	dnsTypes "github.com/lato333/inspektor-gadget/pkg/gadgets/trace/dns/types"
+	eventtypes "github.com/lato333/inspektor-gadget/pkg/types"
 )
 
 type Trace struct {

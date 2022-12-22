@@ -29,9 +29,9 @@ import (
 	"github.com/cilium/ebpf"
 	"github.com/cilium/ebpf/link"
 	"github.com/cilium/ebpf/perf"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets/traceloop/types"
-	eventtypes "github.com/inspektor-gadget/inspektor-gadget/pkg/types"
+	"github.com/lato333/inspektor-gadget/pkg/gadgets"
+	"github.com/lato333/inspektor-gadget/pkg/gadgets/traceloop/types"
+	eventtypes "github.com/lato333/inspektor-gadget/pkg/types"
 	libseccomp "github.com/seccomp/libseccomp-golang"
 	log "github.com/sirupsen/logrus"
 )

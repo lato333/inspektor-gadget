@@ -33,13 +33,13 @@ import (
 	"github.com/docker/docker/api/types/container"
 	"github.com/docker/docker/client"
 
-	gadgetv1alpha1 "github.com/inspektor-gadget/inspektor-gadget/pkg/apis/gadget/v1alpha1"
-	containerutils "github.com/inspektor-gadget/inspektor-gadget/pkg/container-utils"
-	top "github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets/top"
-	ebpftoptypes "github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets/top/ebpf/types"
-	dnstypes "github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets/trace/dns/types"
-	networktypes "github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets/trace/network/types"
-	eventtypes "github.com/inspektor-gadget/inspektor-gadget/pkg/types"
+	gadgetv1alpha1 "github.com/lato333/inspektor-gadget/pkg/apis/gadget/v1alpha1"
+	containerutils "github.com/lato333/inspektor-gadget/pkg/container-utils"
+	top "github.com/lato333/inspektor-gadget/pkg/gadgets/top"
+	ebpftoptypes "github.com/lato333/inspektor-gadget/pkg/gadgets/top/ebpf/types"
+	dnstypes "github.com/lato333/inspektor-gadget/pkg/gadgets/trace/dns/types"
+	networktypes "github.com/lato333/inspektor-gadget/pkg/gadgets/trace/network/types"
+	eventtypes "github.com/lato333/inspektor-gadget/pkg/types"
 )
 
 var rootTest = flag.Bool("root-test", false, "enable tests requiring root")

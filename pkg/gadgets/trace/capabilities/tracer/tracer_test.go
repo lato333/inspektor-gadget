@@ -27,10 +27,10 @@ import (
 	"testing"
 	"time"
 
-	utilstest "github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets/internal/test"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets/trace/capabilities/tracer"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets/trace/capabilities/types"
-	eventtypes "github.com/inspektor-gadget/inspektor-gadget/pkg/types"
+	utilstest "github.com/lato333/inspektor-gadget/pkg/gadgets/internal/test"
+	"github.com/lato333/inspektor-gadget/pkg/gadgets/trace/capabilities/tracer"
+	"github.com/lato333/inspektor-gadget/pkg/gadgets/trace/capabilities/types"
+	eventtypes "github.com/lato333/inspektor-gadget/pkg/types"
 	"github.com/moby/moby/pkg/parsers/kernel"
 	"golang.org/x/sys/unix"
 )

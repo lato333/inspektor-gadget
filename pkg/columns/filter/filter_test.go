@@ -17,7 +17,7 @@ package filter
 import (
 	"testing"
 
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/columns"
+	"github.com/lato333/inspektor-gadget/pkg/columns"
 )
 
 func TestFilters(t *testing.T) {

@@ -24,10 +24,10 @@ import (
 	"github.com/cilium/ebpf/perf"
 	"golang.org/x/sys/unix"
 
-	containerutils "github.com/inspektor-gadget/inspektor-gadget/pkg/container-utils"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/rawsock"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/types"
+	containerutils "github.com/lato333/inspektor-gadget/pkg/container-utils"
+	"github.com/lato333/inspektor-gadget/pkg/gadgets"
+	"github.com/lato333/inspektor-gadget/pkg/rawsock"
+	"github.com/lato333/inspektor-gadget/pkg/types"
 )
 
 type attachment struct {

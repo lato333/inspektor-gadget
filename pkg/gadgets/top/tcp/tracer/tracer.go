@@ -27,10 +27,10 @@ import (
 	"github.com/cilium/ebpf"
 	"github.com/cilium/ebpf/link"
 
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/columns"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets/top"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets/top/tcp/types"
+	"github.com/lato333/inspektor-gadget/pkg/columns"
+	"github.com/lato333/inspektor-gadget/pkg/gadgets"
+	"github.com/lato333/inspektor-gadget/pkg/gadgets/top"
+	"github.com/lato333/inspektor-gadget/pkg/gadgets/top/tcp/types"
 )
 
 //go:generate go run github.com/cilium/ebpf/cmd/bpf2go -no-global-types -target $TARGET -type ip_key_t -type traffic_t -cc clang tcptop ./bpf/tcptop.bpf.c -- -I./bpf/ -I../../../../${TARGET}

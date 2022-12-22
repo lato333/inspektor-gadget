@@ -23,8 +23,8 @@ import (
 	"github.com/cilium/ebpf"
 	"golang.org/x/sys/unix"
 
-	containercollection "github.com/inspektor-gadget/inspektor-gadget/pkg/container-collection"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/gadgettracermanager/common"
+	containercollection "github.com/lato333/inspektor-gadget/pkg/container-collection"
+	"github.com/lato333/inspektor-gadget/pkg/gadgettracermanager/common"
 )
 
 //go:generate go run github.com/cilium/ebpf/cmd/bpf2go -target bpfel -cc clang containersmap ./bpf/containers-map.c -- -I./bpf/ -I../../ -I../../${TARGET}

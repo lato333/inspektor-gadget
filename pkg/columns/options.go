@@ -14,7 +14,7 @@
 
 package columns
 
-import "github.com/inspektor-gadget/inspektor-gadget/pkg/columns/ellipsis"
+import "github.com/lato333/inspektor-gadget/pkg/columns/ellipsis"
 
 type Option func(*Options)
 

@@ -22,9 +22,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/columns"
+	"github.com/lato333/inspektor-gadget/pkg/columns"
 
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/columns/ellipsis"
+	"github.com/lato333/inspektor-gadget/pkg/columns/ellipsis"
 )
 
 func (tf *TextColumnsFormatter[T]) setFormatter(column *Column[T]) {

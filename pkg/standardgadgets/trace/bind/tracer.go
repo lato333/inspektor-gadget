@@ -17,9 +17,9 @@ package standard
 import (
 	"encoding/json"
 
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets/trace/bind/tracer"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets/trace/bind/types"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/standardgadgets/trace"
+	"github.com/lato333/inspektor-gadget/pkg/gadgets/trace/bind/tracer"
+	"github.com/lato333/inspektor-gadget/pkg/gadgets/trace/bind/types"
+	"github.com/lato333/inspektor-gadget/pkg/standardgadgets/trace"
 	"github.com/vishvananda/netlink"
 )
 

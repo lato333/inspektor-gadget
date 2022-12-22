@@ -15,8 +15,8 @@
 package top
 
 import (
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/columns"
-	columnssort "github.com/inspektor-gadget/inspektor-gadget/pkg/columns/sort"
+	"github.com/lato333/inspektor-gadget/pkg/columns"
+	columnssort "github.com/lato333/inspektor-gadget/pkg/columns/sort"
 )
 
 const (

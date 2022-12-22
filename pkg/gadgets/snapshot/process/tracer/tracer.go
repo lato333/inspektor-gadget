@@ -27,10 +27,10 @@ import (
 	"github.com/cilium/ebpf"
 	"github.com/cilium/ebpf/link"
 
-	containerutils "github.com/inspektor-gadget/inspektor-gadget/pkg/container-utils"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets"
-	processcollectortypes "github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets/snapshot/process/types"
-	eventtypes "github.com/inspektor-gadget/inspektor-gadget/pkg/types"
+	containerutils "github.com/lato333/inspektor-gadget/pkg/container-utils"
+	"github.com/lato333/inspektor-gadget/pkg/gadgets"
+	processcollectortypes "github.com/lato333/inspektor-gadget/pkg/gadgets/snapshot/process/types"
+	eventtypes "github.com/lato333/inspektor-gadget/pkg/types"
 )
 
 //go:generate go run github.com/cilium/ebpf/cmd/bpf2go -target bpfel -cc clang processCollector ./bpf/process-collector.bpf.c -- -I../../../../${TARGET} -Werror -O2 -g -c -x c

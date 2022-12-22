@@ -24,13 +24,13 @@ import (
 	log "github.com/sirupsen/logrus"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/gadget-collection/gadgets"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets/traceloop/types"
+	"github.com/lato333/inspektor-gadget/pkg/gadget-collection/gadgets"
+	"github.com/lato333/inspektor-gadget/pkg/gadgets/traceloop/types"
 
-	tracelooptracer "github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets/traceloop/tracer"
+	tracelooptracer "github.com/lato333/inspektor-gadget/pkg/gadgets/traceloop/tracer"
 
-	gadgetv1alpha1 "github.com/inspektor-gadget/inspektor-gadget/pkg/apis/gadget/v1alpha1"
-	containercollection "github.com/inspektor-gadget/inspektor-gadget/pkg/container-collection"
+	gadgetv1alpha1 "github.com/lato333/inspektor-gadget/pkg/apis/gadget/v1alpha1"
+	containercollection "github.com/lato333/inspektor-gadget/pkg/container-collection"
 )
 
 type Trace struct {
@@ -361,8 +361,8 @@ func (t *Trace) Collect(trace *gadgetv1alpha1.Trace) {
 	// the size is limited.
 	// Also, if we send each event as a line, we will only be able to get the last
 	// 100 (or 250) events from the CLI due to this code:
-	// https://github.com/inspektor-gadget/inspektor-gadget/blob/9c7b6a126d82b54262ffdc5709d7c92480002830/pkg/gadgettracermanager/stream/stream.go#L24
-	// https://github.com/inspektor-gadget/inspektor-gadget/blob/9c7b6a126d82b54262ffdc5709d7c92480002830/pkg/gadgettracermanager/stream/stream.go#L95-L100
+	// https://github.com/lato333/inspektor-gadget/blob/9c7b6a126d82b54262ffdc5709d7c92480002830/pkg/gadgettracermanager/stream/stream.go#L24
+	// https://github.com/lato333/inspektor-gadget/blob/9c7b6a126d82b54262ffdc5709d7c92480002830/pkg/gadgettracermanager/stream/stream.go#L95-L100
 	// To overcome this limitation, we just send all events as one big line.
 	// Then, the CLI receives this big line, parses it and prints each event.
 	// A proper solution would be to develop a specific "output" (neither status

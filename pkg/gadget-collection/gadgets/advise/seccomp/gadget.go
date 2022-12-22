@@ -33,10 +33,10 @@ import (
 	seccompprofile "sigs.k8s.io/security-profiles-operator/api/seccompprofile/v1beta1"
 	k8syaml "sigs.k8s.io/yaml"
 
-	gadgetv1alpha1 "github.com/inspektor-gadget/inspektor-gadget/pkg/apis/gadget/v1alpha1"
-	containercollection "github.com/inspektor-gadget/inspektor-gadget/pkg/container-collection"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/gadget-collection/gadgets"
-	seccomptracer "github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets/advise/seccomp/tracer"
+	gadgetv1alpha1 "github.com/lato333/inspektor-gadget/pkg/apis/gadget/v1alpha1"
+	containercollection "github.com/lato333/inspektor-gadget/pkg/container-collection"
+	"github.com/lato333/inspektor-gadget/pkg/gadget-collection/gadgets"
+	seccomptracer "github.com/lato333/inspektor-gadget/pkg/gadgets/advise/seccomp/tracer"
 )
 
 type Trace struct {

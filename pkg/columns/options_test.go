@@ -17,7 +17,7 @@ package columns
 import (
 	"testing"
 
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/columns/ellipsis"
+	"github.com/lato333/inspektor-gadget/pkg/columns/ellipsis"
 )
 
 func TestOptions(t *testing.T) {

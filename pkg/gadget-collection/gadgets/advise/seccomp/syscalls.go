@@ -19,7 +19,7 @@ package seccomp
 
 import (
 	commonseccomp "github.com/containers/common/pkg/seccomp"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets/advise/seccomp/tracer"
+	"github.com/lato333/inspektor-gadget/pkg/gadgets/advise/seccomp/tracer"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	seccompprofile "sigs.k8s.io/security-profiles-operator/api/seccompprofile/v1beta1"
 )

@@ -30,11 +30,11 @@ import (
 	"k8s.io/client-go/rest"
 	"k8s.io/client-go/tools/cache"
 
-	containerutils "github.com/inspektor-gadget/inspektor-gadget/pkg/container-utils"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/container-utils/cgroups"
-	ociannotations "github.com/inspektor-gadget/inspektor-gadget/pkg/container-utils/oci-annotations"
-	runtimeclient "github.com/inspektor-gadget/inspektor-gadget/pkg/container-utils/runtime-client"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/runcfanotify"
+	containerutils "github.com/lato333/inspektor-gadget/pkg/container-utils"
+	"github.com/lato333/inspektor-gadget/pkg/container-utils/cgroups"
+	ociannotations "github.com/lato333/inspektor-gadget/pkg/container-utils/oci-annotations"
+	runtimeclient "github.com/lato333/inspektor-gadget/pkg/container-utils/runtime-client"
+	"github.com/lato333/inspektor-gadget/pkg/runcfanotify"
 )
 
 var netnsHost uint64
@@ -611,7 +611,7 @@ func WithOCIConfigEnrichment() ContainerCollectionOption {
 			}
 
 			// TODO: handle this once we support pod sandboxes via WithContainerRuntimeEnrichment
-			// Issue: https://github.com/inspektor-gadget/inspektor-gadget/issues/1095
+			// Issue: https://github.com/lato333/inspektor-gadget/issues/1095
 			if ct := resolver.ContainerType(container.OciConfig.Annotations); ct == "sandbox" {
 				return false
 			}

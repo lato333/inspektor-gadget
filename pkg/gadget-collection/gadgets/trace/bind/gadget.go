@@ -22,14 +22,14 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/gadget-collection/gadgets"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/gadget-collection/gadgets/trace"
+	"github.com/lato333/inspektor-gadget/pkg/gadget-collection/gadgets"
+	"github.com/lato333/inspektor-gadget/pkg/gadget-collection/gadgets/trace"
 
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets/trace/bind/tracer"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets/trace/bind/types"
-	standardtracer "github.com/inspektor-gadget/inspektor-gadget/pkg/standardgadgets/trace/bind"
+	"github.com/lato333/inspektor-gadget/pkg/gadgets/trace/bind/tracer"
+	"github.com/lato333/inspektor-gadget/pkg/gadgets/trace/bind/types"
+	standardtracer "github.com/lato333/inspektor-gadget/pkg/standardgadgets/trace/bind"
 
-	gadgetv1alpha1 "github.com/inspektor-gadget/inspektor-gadget/pkg/apis/gadget/v1alpha1"
+	gadgetv1alpha1 "github.com/lato333/inspektor-gadget/pkg/apis/gadget/v1alpha1"
 )
 
 type Trace struct {

@@ -26,12 +26,12 @@ import (
 
 	"github.com/cilium/ebpf"
 
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/bpfstats"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/columns"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets/top"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets/top/ebpf/piditer"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets/top/ebpf/types"
-	eventtypes "github.com/inspektor-gadget/inspektor-gadget/pkg/types"
+	"github.com/lato333/inspektor-gadget/pkg/bpfstats"
+	"github.com/lato333/inspektor-gadget/pkg/columns"
+	"github.com/lato333/inspektor-gadget/pkg/gadgets/top"
+	"github.com/lato333/inspektor-gadget/pkg/gadgets/top/ebpf/piditer"
+	"github.com/lato333/inspektor-gadget/pkg/gadgets/top/ebpf/types"
+	eventtypes "github.com/lato333/inspektor-gadget/pkg/types"
 )
 
 type Config struct {

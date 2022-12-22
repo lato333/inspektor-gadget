@@ -29,7 +29,7 @@ import (
 	"github.com/cilium/ebpf/link"
 	"golang.org/x/sys/unix"
 
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets"
+	"github.com/lato333/inspektor-gadget/pkg/gadgets"
 )
 
 //go:generate go run github.com/cilium/ebpf/cmd/bpf2go -target $TARGET -cc clang -type pid_iter_entry piditer ./bpf/pid_iter.bpf.c -- -I./bpf/ -I../../../../${TARGET}

@@ -23,7 +23,7 @@ import (
 	"strings"
 	"time"
 
-	runtimeclient "github.com/inspektor-gadget/inspektor-gadget/pkg/container-utils/runtime-client"
+	runtimeclient "github.com/lato333/inspektor-gadget/pkg/container-utils/runtime-client"
 	log "github.com/sirupsen/logrus"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"

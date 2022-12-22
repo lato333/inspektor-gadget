@@ -18,7 +18,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/columns"
+	"github.com/lato333/inspektor-gadget/pkg/columns"
 )
 
 type Column[T any] struct {

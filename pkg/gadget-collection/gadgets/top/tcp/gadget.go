@@ -23,12 +23,12 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	gadgetv1alpha1 "github.com/inspektor-gadget/inspektor-gadget/pkg/apis/gadget/v1alpha1"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/columns/sort"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/gadget-collection/gadgets"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets/top"
-	tcptoptracer "github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets/top/tcp/tracer"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets/top/tcp/types"
+	gadgetv1alpha1 "github.com/lato333/inspektor-gadget/pkg/apis/gadget/v1alpha1"
+	"github.com/lato333/inspektor-gadget/pkg/columns/sort"
+	"github.com/lato333/inspektor-gadget/pkg/gadget-collection/gadgets"
+	"github.com/lato333/inspektor-gadget/pkg/gadgets/top"
+	tcptoptracer "github.com/lato333/inspektor-gadget/pkg/gadgets/top/tcp/tracer"
+	"github.com/lato333/inspektor-gadget/pkg/gadgets/top/tcp/types"
 )
 
 type Trace struct {

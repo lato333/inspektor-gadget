@@ -20,13 +20,13 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/gadget-collection/gadgets"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/gadget-collection/gadgets/trace"
+	"github.com/lato333/inspektor-gadget/pkg/gadget-collection/gadgets"
+	"github.com/lato333/inspektor-gadget/pkg/gadget-collection/gadgets/trace"
 
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets/trace/fsslower/tracer"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets/trace/fsslower/types"
+	"github.com/lato333/inspektor-gadget/pkg/gadgets/trace/fsslower/tracer"
+	"github.com/lato333/inspektor-gadget/pkg/gadgets/trace/fsslower/types"
 
-	gadgetv1alpha1 "github.com/inspektor-gadget/inspektor-gadget/pkg/apis/gadget/v1alpha1"
+	gadgetv1alpha1 "github.com/lato333/inspektor-gadget/pkg/apis/gadget/v1alpha1"
 )
 
 var validFilesystems = []string{"btrfs", "ext4", "nfs", "xfs"}

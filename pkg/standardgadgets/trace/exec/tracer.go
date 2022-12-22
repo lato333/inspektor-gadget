@@ -15,9 +15,9 @@
 package standard
 
 import (
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets/trace/exec/tracer"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/gadgets/trace/exec/types"
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/standardgadgets/trace"
+	"github.com/lato333/inspektor-gadget/pkg/gadgets/trace/exec/tracer"
+	"github.com/lato333/inspektor-gadget/pkg/gadgets/trace/exec/types"
+	"github.com/lato333/inspektor-gadget/pkg/standardgadgets/trace"
 )
 
 func NewTracer(config *tracer.Config, eventCallback func(types.Event)) (*trace.StandardTracer[types.Event], error) {

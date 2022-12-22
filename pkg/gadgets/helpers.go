@@ -21,7 +21,7 @@ import (
 
 	"github.com/cilium/ebpf/link"
 
-	"github.com/inspektor-gadget/inspektor-gadget/pkg/types"
+	"github.com/lato333/inspektor-gadget/pkg/types"
 )
 
 const (

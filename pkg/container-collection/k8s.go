@@ -27,8 +27,8 @@ import (
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/rest"
 
-	containerutils "github.com/inspektor-gadget/inspektor-gadget/pkg/container-utils"
-	runtimeclient "github.com/inspektor-gadget/inspektor-gadget/pkg/container-utils/runtime-client"
+	containerutils "github.com/lato333/inspektor-gadget/pkg/container-utils"
+	runtimeclient "github.com/lato333/inspektor-gadget/pkg/container-utils/runtime-client"
 )
 
 type K8sClient struct {
