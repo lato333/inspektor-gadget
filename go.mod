@@ -1,4 +1,4 @@
-module github.com/inspektor-gadget/inspektor-gadget
+module github.com/lato333/inspektor-gadget
 
 go 1.18
 
