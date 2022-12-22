@@ -1,4 +1,4 @@
-module github.com/lato333/inspektor-gadget
+module github.com/inspektor-gadget/inspektor-gadget
 
 go 1.18
 
@@ -169,4 +169,4 @@ replace (
 
 replace github.com/cilium/ebpf => github.com/inspektor-gadget/ebpf v0.0.0-20221115161606-78aefc9a99fd
 
-replace github.com/inspektor-gadget/inspektor-gadget => github.com/lato333/inspektor-gadget v0.0.0-20221222165312-54587bc3d07c
+replace github.com/inspektor-gadget/inspektor-gadget => github.com/lato333/inspektor-gadget latest
