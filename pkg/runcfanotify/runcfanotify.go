@@ -106,6 +106,8 @@ var runcPaths = []string{
 	"/usr/local/sbin/runc",
 	"/usr/lib/cri-o-runc/sbin/runc",
 	"/run/torcx/unpack/docker/bin/runc",
+	"/var/lib/rancher/rke2/data/v1.24.7-rke2r1-bd84af53feb9/bin/runc",
+	
 }
 
 // true if the SYS_PIDFD_OPEN syscall is available
@@ -173,7 +175,7 @@ func NewRuncNotifier(callback RuncNotifyFunc) (*RuncNotifier, error) {
 
 	for _, r := range runcPaths {
 		runcPath := filepath.Join(hostRoot, r)
-
+		
 		log.Debugf("Runcfanotify: trying runc at %s", runcPath)
 
 		if _, err := os.Stat(runcPath); errors.Is(err, os.ErrNotExist) {
