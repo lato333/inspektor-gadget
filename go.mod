@@ -168,3 +168,5 @@ replace (
 )
 
 replace github.com/cilium/ebpf => github.com/inspektor-gadget/ebpf v0.0.0-20221115161606-78aefc9a99fd
+
+replace github.com/inspektor-gadget/inspektor-gadget => github.com/lato333/inspektor-gadget/version latest
