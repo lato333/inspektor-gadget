@@ -186,7 +186,7 @@ func (t *Tracer) Attach(containerID string, mntnsID uint64) error {
 	}
 
 	// 2. Use this inner Map to create the perf reader.
-	perfReader, err := perf.NewReaderWithOptions(innerBuffer, gadgets.PerfBufferPages*os.Getpagesize(), perf.ReaderOptions{WriteBackward: true, OverWritable: true})
+	perfReader, err := perf.NewReaderWithOptions(innerBuffer, gadgets.PerfBufferPages*os.Getpagesize(), perf.ReaderOptions{})
 	if err != nil {
 		innerBuffer.Close()
 
